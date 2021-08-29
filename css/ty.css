@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #a700ff, #4d19db);
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    color: white;
+    z-index: 1;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+    }
+    
+    .logo{
+        font-size: xx-large;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+
+    }
+    
+    
+    
+    a{
+        text-decoration: none;
+        color: white;}
+    
+    .btn{
+        border: 2px solid white;
+        padding: 6px 25px;
+        border-radius: 30px;
+        margin-left: 60%;
+        box-shadow: inset 0 0 0 2px hsl(243, 80%, 62%);
+        transition: 300ms box-shadow cubic-bezier(0.4, 0, 0.6, 1), 300ms background-color cubic-bezier(0.4, 0, 0.6, 1), 300ms color cubic-bezier(0.4, 0, 0.6, 1);;
+    
+    }
+    
+    
+    .btn:hover {
+        box-shadow: inset 0 0 0 4px hsla(0, 0%, 100%, 0.74);
+        color: hsl(0, 0%, 100%);
+    }
+    
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        justify-content: space-between;
+    }
+    
+    .col1{
+        flex-basis: 40%;
+        min-width: 300px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .col2{
+        flex-basis: 40%;
+        min-width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .col1 img{
+        width: 100%;    
+        margin-bottom: 50%;
+    }
+    
+    .col2 h1{
+        font-size: 62px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+    
+    span{
+        color: yellow
+        ;
+    }
+
+    p{
+        font-size: 30px;
+        font-family: 'Zen Loop', cursive;    }
+    
