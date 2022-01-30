@@ -6,13 +6,13 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 .imgIM {
     float: right;
     border-radius: 50%;
     width: 450px;
-    /* width of image (px or % or auto) */
     height: auto;
 }
 
@@ -111,6 +111,7 @@ section {
 
 .btn {
     position: relative;
+    color: white;
     background-image: linear-gradient(to right, #25aae1, #3f86ed);
     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
     opacity: 0.9;
@@ -176,7 +177,7 @@ img {
 }
 
 .services {
-    background: #5B87E5;
+    background: #37CFDC;
 }
 
 .services .content {
@@ -668,7 +669,7 @@ img {
 }
 
 .achievements {
-    background-image: url(../images/polygonal-abstract-red-dark-background-eo-3840x2160.jpg);
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
 .footer {
@@ -690,4 +691,20 @@ img {
     margin: 0.4em 0;
     font-size: 3.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#particles-js {
+    z-index: 0;
+}
+
+#abut {
+    text-decoration: none;
+    color: white;
+}
+
+#footerpad {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
